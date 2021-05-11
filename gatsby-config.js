@@ -1,33 +1,26 @@
 module.exports = {
+  pathPrefix: '/cultural',
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Cultural by Legado8`,
+    name: `Cultural`,
+    siteUrl: `https://cultural.legado8.org`,
+    description: `Cultural Magazine by Legado8`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Bienvenido a Cultural, la revista digital libre de Legado8.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/legado8`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/legado8`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://instagram.com/legado8`,
       },
     ],
   },
@@ -48,8 +41,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Cultural by Legado8`,
+        short_name: `cultural`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
