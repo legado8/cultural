@@ -6,11 +6,18 @@ by [Narative](https://www.narative.co).
 
 ## Quick Start
 
-Clone the project and do
+Clone the project and ...
+
+### npm
 
 ```js
+npm ci
 npm run dev
+```
 
-// yarn
+### yarn
+
+```js
+yarn
 yarn dev
 ```
