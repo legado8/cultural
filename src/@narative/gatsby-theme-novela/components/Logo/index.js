@@ -9,7 +9,7 @@ import React from "react";
  */
 export default function Logo({ fill = "#000" }) {
   return (
-    <svg viewBox="0 0 184 32" height="30px">
+    <svg viewBox="0 0 184 23" height="30px">
       <path
         fill={fill}
         d="M 0,22.589286 V 0.34986991 H 4.715608 V 18.695107 h 9.020502 v 3.894179 z"
