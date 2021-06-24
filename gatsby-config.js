@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/cultural',
+  pathPrefix: '/legado8-cultural',
   siteMetadata: {
     title: `Cultural by Legado8`,
     name: `Cultural`,
