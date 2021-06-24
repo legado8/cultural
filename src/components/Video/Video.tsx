@@ -8,6 +8,7 @@ export const Video = ({ id, children }) => {
           position: "relative",
           paddingBottom: "51.25%",
           paddingTop: "30px",
+          marginLeft: "25%",
           height: 0,
           overflow: "hidden",
         }}
