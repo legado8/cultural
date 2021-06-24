@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{"78+o":function(n,s,t){"use strict";t.r(s);t("q1tI");var a=t("dH/O"),c=t("noox"),e=t("WsIH"),j=t("gZs9"),l=t("qKvR");s.default=function(){var n=j.a.h1;return Object(l.jsx)(a.a,null,Object(l.jsx)(e.a,null),Object(l.jsx)(c.a,null,Object(l.jsx)("div",{style:{marginTop:"100px"}},Object(l.jsx)(n,null,"Privacy"))))}}}]);
+//# sourceMappingURL=component---src-pages-privacy-policy-js-f847faadef6a22e5a6a4.js.map
