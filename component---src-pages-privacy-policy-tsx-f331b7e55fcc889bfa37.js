@@ -1,0 +1,2 @@
+(self.webpackChunksite=self.webpackChunksite||[]).push([[806],{9297:function(e,t,n){"use strict";n.r(t);var l=n(7294),r=n(3520),u=n(7303);t.default=function(){return l.createElement(r.A,null,l.createElement(u.H,null),l.createElement("div",{style:{marginTop:"100px"}},l.createElement("h1",null,"Privacy")))}}}]);
+//# sourceMappingURL=component---src-pages-privacy-policy-tsx-f331b7e55fcc889bfa37.js.map

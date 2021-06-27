@@ -1,0 +1,2 @@
+(self.webpackChunksite=self.webpackChunksite||[]).push([[218],{3205:function(e,t,n){"use strict";n.r(t);var l=n(7294),u=n(3520),a=n(7303);t.default=function(){return l.createElement(u.A,null,l.createElement(a.H,null),l.createElement("div",{style:{marginTop:"100px"}},l.createElement("h1",null,"404: Page Not Found")))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-aed49707f0070bf51054.js.map
