@@ -7,6 +7,7 @@ export const StyledMenu = styled.div`
 
   width: 320px;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
 
   position: fixed;
   left: calc(100vw - ${({ open }) => (open ? '320px' : '0px')});
