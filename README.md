@@ -8,16 +8,7 @@ by [Narative](https://www.narative.co).
 
 Clone the project and ...
 
-### npm
-
-```js
-npm ci
-npm run dev
-```
-
-### yarn
-
 ```js
 yarn
-yarn dev
+yarn start
 ```
