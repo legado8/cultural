@@ -27,12 +27,18 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
+        plugins: [`gatsby-remark-images`, `gatsby-remark-images-medium-zoom`],
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1200,
+              linkImagesToOriginal: false,
             },
+          },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`,
+            options: {},
           },
         ],
       },
@@ -46,9 +52,9 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Poppins', 'Lora']
-        }
-      }
+          families: ['Poppins', 'Lora'],
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
