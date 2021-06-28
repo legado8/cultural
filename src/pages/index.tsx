@@ -36,7 +36,7 @@ const IndexPage = ({ data }) => (
     </Gallery>
 
     <Title>
-      <h2>Únete a la revolución cultural!</h2>
+      <h2>¡Únete a la revolución cultural!</h2>
       <h3>Tu historia se escribe aquí...</h3>
     </Title>
   </Layout>
