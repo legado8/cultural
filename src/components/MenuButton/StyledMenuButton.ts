@@ -6,4 +6,10 @@ export const StyledMenuButton = styled.div`
   right: 2rem;
   top: 2.5rem;
   z-index: 10;
+
+  svg {
+    rect {
+      transition: all .3s ease;
+    }
+  }
 `;
