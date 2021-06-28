@@ -10,7 +10,7 @@ import { Container } from '../../components/Container';
 import { Meta } from '../../components/Meta';
 import { Related } from '../../components/Related';
 
-const ArticlePage = ({ data: { mdx } }) => {
+const ArticlePage = ({ data: { mdx, allMdx } }) => {
   return (
     <Layout>
       <Hero bg={mdx.frontmatter.hero.childImageSharp.original.src} />
@@ -23,7 +23,7 @@ const ArticlePage = ({ data: { mdx } }) => {
           </Meta>
           <h2>{mdx.frontmatter.title}</h2>
           <MDXRenderer>{mdx.body}</MDXRenderer>
-          <Related />
+          <Related articles={allMdx.edges} />
         </Article>
       </Container>
     </Layout>
@@ -53,6 +53,31 @@ export const query = graphql`
         words
       }
       body
+    }
+    allMdx(filter: { id: { ne: $id } }, limit: 3) {
+      edges {
+        node {
+          slug
+          excerpt
+          frontmatter {
+            title
+            date
+            hero {
+              childImageSharp {
+                gatsbyImageData(
+                  width: 500
+                  height: 250
+                  placeholder: BLURRED
+                  formats: [AUTO, WEBP, AVIF]
+                )
+              }
+            }
+          }
+          wordCount {
+            words
+          }
+        }
+      }
     }
   }
 `;

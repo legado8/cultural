@@ -22,8 +22,8 @@ export const GalleryItem = ({
         <Link to={to}>
           <h3>{title}</h3>
         </Link>
-        <p>{description}</p>
-        <Meta>{meta}</Meta>
+        {description && <p>{description}</p>}
+        {meta && <Meta>{meta}</Meta>}
       </div>
     </StyledGalleryItem>
   );
