@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledTitle = styled.div`
-  padding: 6rem 1rem;
+  padding: 12rem 1rem;
   text-align: center;
 
   h2 {

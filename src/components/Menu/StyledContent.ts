@@ -8,7 +8,4 @@ export const StyledContent = styled.main`
   overflow-y: auto;
   left: ${({ open }) => (open ? '-320px' : '0')};
   top: 0;
-
-  background-color: rgb(250, 250, 250);
-  color: rgb(10, 10, 10);
 `;
