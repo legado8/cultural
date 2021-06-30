@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import * as dayjs from 'dayjs';
 
 import { Layout } from '../components/Layout';
@@ -38,6 +38,7 @@ const IndexPage = ({ data }) => (
     <Title>
       <h2>¡Únete a la revolución cultural!</h2>
       <h3>Tu historia se escribe aquí...</h3>
+      <p><Link to={'/contact'}>Participa del legado!</Link></p>
     </Title>
   </Layout>
 );
